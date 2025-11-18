@@ -12,7 +12,7 @@ let value = parseFloat(document.getElementById("value").value);
   let week=parseFloat(document.getElementById("week").value);
   let oldc=classes;
   let oldt=total;
-  while(classes/total<0.85){
+  while(classes/total<0.75){
     classes+=value;
     total+=value;
   }
